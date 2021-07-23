@@ -26,7 +26,7 @@ class LaptopTile extends StatelessWidget {
               child: Container(
                 color: Color(0xffecedef),
                 child: Image.asset(
-                  data.foto,
+                  data.foto[0],
                   width: 120,
                   height: 120,
                   fit: BoxFit.contain,
