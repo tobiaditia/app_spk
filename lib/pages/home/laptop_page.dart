@@ -1,3 +1,4 @@
+import 'package:app_spk/model/laptop.dart';
 import 'package:app_spk/pages/widgets/laptop_tile.dart';
 import 'package:app_spk/theme.dart';
 import 'package:flutter/material.dart';
@@ -48,16 +49,7 @@ class LaptopPage extends StatelessWidget {
     Widget laptop() {
       return Container(
         margin: EdgeInsets.only(top: defaultMargin),
-        child: Column(
-          children: [
-            LaptopTile(),
-            LaptopTile(),
-            LaptopTile(),
-            LaptopTile(),
-            LaptopTile(),
-            LaptopTile(),
-          ],
-        ),
+        child: Column(children: laptopList.map((e) => LaptopTile(e)).toList()),
       );
     }
 

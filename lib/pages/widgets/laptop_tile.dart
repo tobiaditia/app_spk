@@ -1,9 +1,17 @@
+import 'package:app_spk/model/laptop.dart';
 import 'package:app_spk/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_money_formatter/flutter_money_formatter.dart';
 
 class LaptopTile extends StatelessWidget {
+  final LaptopModel data;
+  LaptopTile(this.data);
+
   @override
   Widget build(BuildContext context) {
+    FlutterMoneyFormatter fmf = FlutterMoneyFormatter(amount: data.harga.toDouble());
+
+    MoneyFormatterOutput fo = fmf.output;
     return GestureDetector(
       onTap: () {
         Navigator.pushNamed(context, '/product');
@@ -15,11 +23,14 @@ class LaptopTile extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
-              child: Image.asset(
-                "assets/image_shoes.png",
-                width: 120,
-                height: 120,
-                fit: BoxFit.cover,
+              child: Container(
+                color: Color(0xffecedef),
+                child: Image.asset(
+                  data.foto,
+                  width: 120,
+                  height: 120,
+                  fit: BoxFit.contain,
+                ),
               ),
             ),
             SizedBox(
@@ -30,14 +41,14 @@ class LaptopTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "ASUS",
+                  data.merk,
                   style: secondaryTextStyle.copyWith(fontSize: 12),
                 ),
                 SizedBox(
                   height: 6,
                 ),
                 Text(
-                  "A442UR",
+                  data.nama,
                   style: primaryTextStyle.copyWith(
                       fontSize: 16, fontWeight: semiBold),
                 ),
@@ -45,7 +56,7 @@ class LaptopTile extends StatelessWidget {
                   height: 6,
                 ),
                 Text(
-                  "Rp. 3.000.000",
+                  "Rp. "+fo.withoutFractionDigits,
                   style: priceTextStyle.copyWith(fontWeight: medium),
                 ),
               ],
