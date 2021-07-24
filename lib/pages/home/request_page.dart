@@ -1,5 +1,6 @@
 import 'package:app_spk/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class RequestPage extends StatelessWidget {
   @override
@@ -20,50 +21,59 @@ class RequestPage extends StatelessWidget {
     Widget content() {
       return Expanded(
           child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 25),
+              padding: EdgeInsets.symmetric(horizontal: 25),
               child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Image.asset(
-            'assets/icon_headset.png',
-            width: 80,
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Text(
-            "Hubungi Admin",
-            style: primaryTextStyle.copyWith(fontSize: 16, fontWeight: medium),
-          ),
-          SizedBox(
-            height: 12,
-          ),
-          Text(
-            "Hubungi admin untuk menambahkan data atau lainnya.",
-            textAlign: TextAlign.center,
-            style: secondaryTextStyle.copyWith(),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Container(
-            height: 44,
-            child: TextButton(
-              style: TextButton.styleFrom(
-                  padding: EdgeInsets.symmetric(vertical: 10, horizontal: 24),
-                  backgroundColor: primaryColor,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12))),
-              onPressed: () {},
-              child: Text(
-                "Whatssapp",
-                style:
-                    primaryTextStyle.copyWith(fontSize: 16, fontWeight: medium),
-              ),
-            ),
-          )
-        ],
-      )));
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    'assets/icon_headset.png',
+                    width: 80,
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    "Hubungi Admin",
+                    style: primaryTextStyle.copyWith(
+                        fontSize: 16, fontWeight: medium),
+                  ),
+                  SizedBox(
+                    height: 12,
+                  ),
+                  Text(
+                    "Hubungi admin untuk menambahkan data atau lainnya.",
+                    textAlign: TextAlign.center,
+                    style: secondaryTextStyle.copyWith(),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    height: 44,
+                    child: TextButton(
+                      style: TextButton.styleFrom(
+                          padding: EdgeInsets.symmetric(
+                              vertical: 10, horizontal: 24),
+                          backgroundColor: primaryColor,
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12))),
+                      onPressed: () async {
+                        const url = "https://wa.me/+6285895402090";
+                        if (await canLaunch(url)) {
+                          await launch(url);
+                        } else {
+                          throw 'Could not launch $url';
+                        }
+                      },
+                      child: Text(
+                        "Whatssapp",
+                        style: primaryTextStyle.copyWith(
+                            fontSize: 16, fontWeight: medium),
+                      ),
+                    ),
+                  )
+                ],
+              )));
     }
 
     return Column(
