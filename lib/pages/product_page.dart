@@ -13,13 +13,13 @@ class ProductPage extends StatefulWidget {
 }
 
 class _ProductPageState extends State<ProductPage> {
-  List images = ['assets/laptop_1_1.png', 'assets/laptop_1_2.png'];
   int currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
-    
-    FlutterMoneyFormatter fmf = FlutterMoneyFormatter(amount: widget.data.harga.toDouble());
+    List images = widget.data.foto;
+    FlutterMoneyFormatter fmf =
+        FlutterMoneyFormatter(amount: widget.data.harga.toDouble());
 
     MoneyFormatterOutput fo = fmf.output;
     Widget indicator(int index) {
@@ -131,7 +131,7 @@ class _ProductPageState extends State<ProductPage> {
                     style: primaryTextStyle,
                   ),
                   Text(
-                    "Rp. "+fo.withoutFractionDigits,
+                    "Rp. " + fo.withoutFractionDigits,
                     style: priceTextStyle.copyWith(
                         fontSize: 16, fontWeight: semiBold),
                   )

@@ -171,7 +171,7 @@ class _ResultPageState extends State<ResultPage> {
             Container(
               margin: EdgeInsets.only(top: defaultMargin),
               child: Column(
-                children: langkah().map((e) => LaptopResultTile(e)).toList(),
+                children: langkah().map((e) => new LaptopResultTile(e)).toList(),
               ),
             )
           ],

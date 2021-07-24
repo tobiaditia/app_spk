@@ -66,7 +66,7 @@ var laptopList = [
       "Integrated Intel HD Graphics ( 11.6 Inch TouchScreen HD )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_3_1.jpg","assets/laptop_3_2.jpg","assets/laptop_3_3.jpg"],
+      ["assets/laptop_3_1.png","assets/laptop_3_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       4,
@@ -79,7 +79,7 @@ var laptopList = [
       "Integrated Radeon ( 14\" HD 1366x768 TN 220nits Anti-glare )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_4_1.jpg","assets/laptop_4_2.jpg","assets/laptop_4_3.jpg"],
+      ["assets/laptop_4_1.png","assets/laptop_4_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       5,
@@ -92,7 +92,7 @@ var laptopList = [
       "Integrated Radeon ( 14\" HD 1366x768 TN 220nits Anti-glare )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_5_1.jpg","assets/laptop_5_2.jpg"],
+      ["assets/laptop_5_1.png","assets/laptop_5_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       6,
@@ -105,7 +105,7 @@ var laptopList = [
       "Integrated UHD Graphics ( 14\" HD 1366x768 Acer ComfyView )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_6_1.jpg","assets/laptop_6_2.jpg"],
+      ["assets/laptop_6_1.png","assets/laptop_6_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       7,
@@ -118,7 +118,7 @@ var laptopList = [
       "AMD Radeon Graphics ( 14\" IPS Panel FHD Acer ComfyView )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_7_1.jpg","assets/laptop_7_2.jpg"],
+      ["assets/laptop_7_1.png","assets/laptop_7_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       8,
@@ -131,7 +131,7 @@ var laptopList = [
       "AMD Radeon Graphics ( 14\" HD 1366x768 TN Anti Glare)",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_8_1.jpg","assets/laptop_8_2.jpg","assets/laptop_8_3.jpg"],
+      ["assets/laptop_8_1.png","assets/laptop_8_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       9,
@@ -144,7 +144,7 @@ var laptopList = [
       "Integrated UHD Graphics ( 14\" Led-backlit FHD 1920x1080 )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_9_1.jpg","assets/laptop_9_2.jpg","assets/laptop_9_3.jpg"],
+      ["assets/laptop_9_1.png","assets/laptop_9_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       10,
@@ -157,7 +157,7 @@ var laptopList = [
       "Integrated UHD Graphics ( 14 Inch Full HD 1920 x 1080 Acer ComfyView )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_10_1.jpg","assets/laptop_10_2.jpg"],
+      ["assets/laptop_10_1.png","assets/laptop_10_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       11,
@@ -170,7 +170,7 @@ var laptopList = [
       "Integrated Graphics ( 14 Inch FHD WVA 250nits Anti-glare )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_11_1.jpg","assets/laptop_11_2.jpg"],
+      ["assets/laptop_11_1.png","assets/laptop_11_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
   LaptopModel(
       12,
@@ -183,6 +183,6 @@ var laptopList = [
       "Integrated Graphics ( 14 Inch HD WVA 1366 x 768 Acer ComfyView )",
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
-      ["assets/laptop_12_1.jpg","assets/laptop_12_2.jpg","assets/laptop_12_3.jpg"],
+      ["assets/laptop_12_1.png","assets/laptop_12_2.png"],
       {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
 ];
