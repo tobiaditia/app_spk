@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
         '/': (context) => SplashPage(),
         '/home': (context) => HomePage(),
         '/choose-weight': (context) => SelectWeightPage(),
-        '/product': (context) => ProductPage(),
       },
     );
   }

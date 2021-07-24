@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^3.0.0
   cupertino_icons: ^1.0.2
   flutter_money_formatter: ^0.8.3
   google_fonts: ^1.1.2

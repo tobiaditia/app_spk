@@ -1,4 +1,5 @@
 import 'package:app_spk/model/laptop.dart';
+import 'package:app_spk/pages/product_page.dart';
 import 'package:app_spk/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_money_formatter/flutter_money_formatter.dart';
@@ -9,12 +10,14 @@ class LaptopTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    FlutterMoneyFormatter fmf = FlutterMoneyFormatter(amount: data.harga.toDouble());
+    FlutterMoneyFormatter fmf =
+        FlutterMoneyFormatter(amount: data.harga.toDouble());
 
     MoneyFormatterOutput fo = fmf.output;
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, '/product');
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => new ProductPage(data)));
       },
       child: Container(
         margin:
@@ -56,7 +59,7 @@ class LaptopTile extends StatelessWidget {
                   height: 6,
                 ),
                 Text(
-                  "Rp. "+fo.withoutFractionDigits,
+                  "Rp. " + fo.withoutFractionDigits,
                   style: priceTextStyle.copyWith(fontWeight: medium),
                 ),
               ],
