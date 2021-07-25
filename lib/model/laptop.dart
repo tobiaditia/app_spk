@@ -41,7 +41,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_1_1.png","assets/laptop_1_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 5, "grafis": 3, "penyimpanan": 2, "baterai": 3, "ram": 2}),
   LaptopModel(
       2,
       "ASUS",
@@ -54,7 +54,7 @@ var laptopList = [
       "3 Cells 36 Whrs",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_2_1.png","assets/laptop_2_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 4, "grafis": 3, "penyimpanan": 1, "baterai": 3, "ram": 3}),
   LaptopModel(
       3,
       "DELL",
@@ -67,7 +67,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_3_1.png","assets/laptop_3_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 4, "grafis": 3, "penyimpanan": 1, "baterai": 3, "ram": 2}),
   LaptopModel(
       4,
       "LENOVO",
@@ -80,7 +80,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_4_1.png","assets/laptop_4_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 4, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 4}),
   LaptopModel(
       5,
       "LENOVO",
@@ -93,7 +93,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_5_1.png","assets/laptop_5_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 4}),
   LaptopModel(
       6,
       "ACER",
@@ -106,7 +106,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_6_1.png","assets/laptop_6_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 4}),
   LaptopModel(
       7,
       "ACER",
@@ -119,7 +119,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_7_1.png","assets/laptop_7_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 4}),
   LaptopModel(
       8,
       "LENOVO",
@@ -132,7 +132,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_8_1.png","assets/laptop_8_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 3, "grafis": 3, "penyimpanan": 4, "baterai": 3, "ram": 4}),
   LaptopModel(
       9,
       "ASUS",
@@ -145,7 +145,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_9_1.png","assets/laptop_9_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 2, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 4}),
   LaptopModel(
       10,
       "ACER",
@@ -158,7 +158,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_10_1.png","assets/laptop_10_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 2, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 4}),
   LaptopModel(
       11,
       "LENOVO",
@@ -171,7 +171,7 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_11_1.png","assets/laptop_11_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 1, "grafis": 3, "penyimpanan": 5, "baterai": 3, "ram": 5}),
   LaptopModel(
       12,
       "ACER",
@@ -184,5 +184,5 @@ var laptopList = [
       "5000 Mah",
       "Acer Chromebook 714 adalah laptop bisnis yang terlihat premium dengan sasis aluminium ramping yang akan meningkatkan aura sopan dan profesional Anda saat Anda membawa perangkat yang disempurnakan ini dari satu rapat kantor ke rapat lainnya.",
       ["assets/laptop_12_1.png","assets/laptop_12_2.png"],
-      {"harga": 3, "grafis": 3, "penyimpanan": 3, "baterai": 3, "ram": 3}),
+      {"harga": 1, "grafis": 3, "penyimpanan": 5, "baterai": 3, "ram": 5}),
 ];
